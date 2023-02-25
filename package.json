@@ -1,0 +1,24 @@
+{
+  "name": "dicoding-back-end-intermediate-mq-consumer",
+  "version": "1.0.0",
+  "description": "MQ Consumer for dicoding-back-end-intermediate API",
+  "main": "./src/main.js",
+  "scripts": {
+    "start-dev": "nodemon ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeidsID/dicoding-back-end-intermediate-mq-consumer"
+  },
+  "keywords": [
+    "mqConsumer"
+  ],
+  "author": "KeidsID",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.20"
+  }
+}
