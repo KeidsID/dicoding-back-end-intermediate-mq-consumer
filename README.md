@@ -9,16 +9,12 @@ This project is a consumer to consume queue from [dicoding-back-end-intermediate
 - Create the ".env" file with the following data below:
 
   ```sh
-  # Server config
-  HOST=localhost
-  PORT=<desired port>
-
   # node-postgres config
-  PGUSER=<your psql user>
   PGHOST=<your psql host>
+  PGPORT=<your psql port>
+  PGUSER=<your psql user>
   PGPASSWORD=<your psql password>
   PGDATABASE=<your psql database name>
-  PGPORT=<your psql port>
 
   # RabbitMQ config
   RABBITMQ_SERVER=<your RabbitMQ server>
